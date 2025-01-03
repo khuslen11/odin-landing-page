@@ -4,9 +4,8 @@ body {
     flex-direction: column;
     margin: 0px;
 }
-.header-hero {
+.header,.hero {
     display: flex;
-    flex-direction: column;
     background: #1f2937;
     margin: 0;
 }
@@ -49,7 +48,7 @@ a {
 .hero-button {
     width: 100px;
     color: white;
-    background: #1c9cdc;
+    background: #3883f6;
     border-radius: 7px;
     text-decoration: none;
     padding: 5px;
@@ -63,4 +62,33 @@ a {
 .hero-text-sub {
     font-size: 18px;
     color: #e5e7eb;
+}
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info-card {
+    width: 200px;
+    height: 300px;
+}
+.info-img {
+    border-radius: 5px;
+    border-color: #3883f6;
+    border: 2px, solid, #3883f6;
+}
+.info-subtext {
+    text-align: center;
 }
