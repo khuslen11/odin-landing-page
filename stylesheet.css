@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, ;
+    font-family: roboto, serif;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -68,6 +68,7 @@ a {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 50px;
 }
 .info-content {
     display: flex;
@@ -91,4 +92,20 @@ a {
 }
 .info-subtext {
     text-align: center;
+}
+.qoute {
+    display: flex;
+    flex-direction: column;
+    
+    background: #e5e7eb;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
 }
