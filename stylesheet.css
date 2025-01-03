@@ -12,7 +12,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 20px;
 }
 .header-logo {
     font-size: 24px;
@@ -96,7 +96,6 @@ a {
 .qoute {
     display: flex;
     flex-direction: column;
-    
     background: #e5e7eb;
     padding: 100px 200px;
     font-size: 36px;
@@ -108,4 +107,34 @@ a {
     text-align: right;
     font-weight: bold;
     font-style: normal;
+}
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+}
+.call {
+    display: flex;
+    background: #3883f6;
+    color: #e5e7eb;
+    padding: 50px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 100px;
+}
+.call-main {
+    font-weight: bold;
+    font-size: 20px;
+}
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3883f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    flex: none;
+    color: #f9faf8;
 }
