@@ -2,6 +2,7 @@ body {
     font-family: Roboto, ;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .header-hero {
     display: flex;
@@ -12,6 +13,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 .header-logo {
     font-size: 24px;
@@ -24,5 +26,41 @@ body {
 }
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+.hero {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 100%;
+    min-width: 200px;
+    gap: 10px;
+}
+.hero-img {
+    flex: 1 1 100%;
+    max-height: 300px;
+}
+.hero-button {
+    width: 100px;
+    color: white;
+    background: #1c9cdc;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+}
+.hero-text-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-text-sub {
+    font-size: 18px;
     color: #e5e7eb;
 }
